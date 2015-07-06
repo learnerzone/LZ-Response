@@ -2,7 +2,6 @@
 
 // USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
 require_once( 'library/qualification-post-type.php' );
-require_once( 'library/units-post-type.php' );
 
 
 
