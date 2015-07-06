@@ -1,0 +1,122 @@
+#! bin/bash
+
+# Download and extract the required plugins
+pluginDir=/var/www/html/wp-content/plugins
+
+# BadgeOS
+wget https://downloads.wordpress.org/plugin/badgeos.1.4.4.zip
+unzip badgeos.1.4.4.zip
+rm badgeos.1.4.4.zip
+sudo mv badgeos.1.4.4 $pluginDir
+
+# BadgeOS BuddyPress Notifier
+wget https://downloads.wordpress.org/plugin/badgeos-buddypress-notifier.zip
+unzip badgeos-buddypress-notifier.zip
+rm badgeos-buddypress-notifier.zip
+sudo mv badgeos-buddypress-notifier $pluginDir
+
+# BadgeOS Community Add-On
+wget https://downloads.wordpress.org/plugin/badgeos-community-add-on.1.2.0.zip
+unzip badgeos-community-add-on.1.2.0.zip
+rm badgeos-community-add-on.1.2.0.zip
+sudo mv badgeos-community-add-on.1.2.0 $pluginDir
+
+# BadgeOS LearnDash Add-On
+wget https://downloads.wordpress.org/plugin/badgeos-learndash-add-on.1.0.0.zip
+unzip badgeos-learndash-add-on.1.0.0.zip
+rm badgeos-learndash-add-on.1.0.0.zip
+sudo mv badgeos-learndash-add-on.1.0.0 $pluginDir
+
+# BP Group Organizer
+wget https://downloads.wordpress.org/plugin/bp-group-organizer.1.0.8.zip
+unzip bp-group-organizer.1.0.8.zip
+rm bp-group-organizer.1.0.8.zip
+sudo mv bp-group-organizer.1.0.8 $pluginDir
+
+# BP Profile as Homepage
+wget https://downloads.wordpress.org/plugin/bp-profile-as-homepage.1.1.zip
+unzip bp-profile-as-homepage.1.1.zip
+rm bp-profile-as-homepage.1.1.zip
+sudo mv bp-profile-as-homepage.1.1 $pluginDir
+
+# BuddyPress
+wget https://downloads.wordpress.org/plugin/buddypress.2.3.2.1.zip
+unzip buddypress.2.3.2.1.zip
+rm buddypress.2.3.2.1.zip
+sudo mv buddypress.2.3.2.1 $pluginDir
+
+# BuddyPress cover
+wget https://downloads.wordpress.org/plugin/bp-cover.zip
+unzip bp-cover.zip
+rm bp-cover.zip
+sudo mv bp-cover $pluginDir
+
+# BuddyPress Custom Profile Menu
+wget https://downloads.wordpress.org/plugin/buddypress-custom-profile-menu.1.5.1.zip
+unzip buddypress-custom-profile-menu.1.5.1.zip
+rm buddypress-custom-profile-menu.1.5.1.zip
+sudo mv buddypress-custom-profile-menu.1.5.1 $pluginDir
+
+# BuddyPress for LearnDash
+wget https://downloads.wordpress.org/plugin/buddypress-learndash.1.0.1.zip
+unzip buddypress-learndash.1.0.1.zip
+rm buddypress-learndash.1.0.1.zip
+sudo mv buddypress-learndash.1.0.1 $pluginDir
+
+# BuddyPress Group-O-Matic
+wget https://downloads.wordpress.org/plugin/buddypress-groupomatic.1.0.4.zip
+unzip buddypress-groupomatic.1.0.4.zip
+rm buddypress-groupomatic.1.0.4.zip
+sudo mv buddypress-groupomatic.1.0.4 $pluginDir
+
+# BuddyPress Live Notification
+wget https://downloads.wordpress.org/plugin/bp-live-notification.2.0.1.zip
+unzip bp-live-notification.2.0.1.zip
+rm bp-live-notification.2.0.1.zip
+sudo mv bp-live-notification.2.0.1 $pluginDir
+
+# GFChart - Premium DL from http://gfchart.com/
+
+# Gravity Forms - Premium DL from http://www.gravityforms.com/
+
+# Gravity Forms User Registration Add-On  - Premium DL from http://www.gravityforms.com/
+
+# GravityView - Premium DL from https://gravityview.co/
+# GravityView - Advanced Filter Extension Premium DL from https://gravityview.co/
+# GravityView - Enable Gravity Forms Notifications Premium DL from https://gravityview.co/
+
+# Groups
+wget https://downloads.wordpress.org/plugin/groups.1.7.0.zip
+unzip groups.1.7.0.zip
+rm groups.1.7.0.zip
+sudo mv groups.1.7.0 $pluginDir
+
+# LearnDash Course Grid - Premium DL from http://www.learndash.com/
+# LearnDash LMS - Premium DL from http://www.learndash.com/
+# LearnDash Pro Panel - Premium DL from http://www.learndash.com/
+
+# Members
+wget https://downloads.wordpress.org/plugin/members.0.2.4.zip
+unzip members.0.2.4.zip
+rm members.0.2.4.zip
+sudo mv members.0.2.4 $pluginDir
+
+# Mini Loops
+wget https://downloads.wordpress.org/plugin/mini-loops.1.2.zip
+unzip mini-loops.1.2.zip
+rm mini-loops.1.2.zip
+sudo mv mini-loops.1.2 $pluginDir
+
+# Post Template
+wget https://downloads.wordpress.org/plugin/wp-post-template.zip
+unzip wp-post-template.zip
+rm wp-post-template.zip
+sudo mv wp-post-template $pluginDir
+
+# Styles with Shortcodes for WordPress - Premium DL from http://codecanyon.net/
+
+# User Switching
+wget https://downloads.wordpress.org/plugin/user-switching.1.0.6.zip
+unzip user-switching.1.0.6.zip
+rm user-switching.1.0.6.zip
+sudo mv user-switching.1.0.6 $pluginDir
