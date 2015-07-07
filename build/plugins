@@ -75,6 +75,12 @@ unzip bp-live-notification.2.0.1.zip
 rm bp-live-notification.2.0.1.zip
 sudo mv bp-live-notification $pluginDir
 
+# BuddyPress Groups Extra
+wget https://downloads.wordpress.org/plugin/buddypress-groups-extras.3.6.7.2.zip
+unzip buddypress-groups-extras.3.6.7.2.zip
+rm buddypress-groups-extras.3.6.7.2.zip
+sudo mv buddypress-groups-extras $pluginDir
+
 # GFChart - Premium DL from http://gfchart.com/
 
 # Gravity Forms - Premium DL from http://www.gravityforms.com/
