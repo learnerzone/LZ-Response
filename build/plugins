@@ -3,6 +3,12 @@
 # Download and extract the required plugins
 pluginDir=/var/www/html/wp-content/plugins
 
+# Navigation Menu Roles
+wget https://downloads.wordpress.org/plugin/nav-menu-roles.1.7.0.zip
+unzip nav-menu-roles.1.7.0.zip
+rm nav-menu-roles.1.7.0.zip
+sudo mv nav-menu-roles $pluginDir
+
 # BadgeOS
 wget https://downloads.wordpress.org/plugin/badgeos.1.4.4.zip
 unzip badgeos.1.4.4.zip
