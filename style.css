@@ -76,6 +76,12 @@ text-decoration: none;
 }
 .navbar-default .navbar-brand{
 	color:#ffffff;}
+/*-----SIDEBAR CUSTOM CSS ------*/
+.widget_nav_menu ul .menu{
+	list-style-type: none;
+	margin-left: 20px;
+}
+
 
 /*-----FOOTER CUSTOM CSS ------*/
 
