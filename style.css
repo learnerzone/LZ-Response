@@ -77,7 +77,7 @@ text-decoration: none;
 .navbar-default .navbar-brand{
 	color:#ffffff;}
 /*-----SIDEBAR CUSTOM CSS ------*/
-.widget .widget_nav_menu ul{
+.widget .widget_nav_menu{
 	list-style-type: none !important;
 	margin-left: 20px;
 }
