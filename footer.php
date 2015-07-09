@@ -15,7 +15,7 @@
 						<?php wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 					
-					<p class="pull-right"><a href="http://learnerzone.totalpeople.co.uk/surveyzone/learner-self-concern-form/" id="credit320" title="Learner Concern" target="_blank">Do you want to report a concern?</a></p>
+					<p class="pull-right"><button type="button" class="btn btn-danger"><a href="http://learnerzone.totalpeople.co.uk/surveyzone/learner-self-concern-form/" id="credit320" title="Learner Concern" target="_blank">Do you want to report a concern?</a></button></p>
 			
 					<p class="attribution">Designed and Developed by Total People &copy; <?php echo date("Y") ?></p>
 				
