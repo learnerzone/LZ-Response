@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Right Sidebar
+Template Name: No Header Title
 */
 ?>
 <?php get_header(); ?>
