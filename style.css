@@ -92,6 +92,10 @@ text-decoration: none;
 #credit320{
 	color:#fff;
 }
+/*-----BUDDYPRESS CUSTOM CSS ------*/
+.profile h4 {
+  padding-bottom: 10px;
+}
 
 /*-----404 CUSTOM CSS ------*/
 /*-----HOVER EFFECTS CUSTOM CSS ------*/
