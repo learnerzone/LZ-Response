@@ -109,7 +109,7 @@ text-decoration: none;
 
 #learndash_next_prev_link a {
   margin-top: 10px;
-  background-color: #337ab7;
+  background-color: #03a8d4;
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -125,7 +125,7 @@ text-decoration: none;
 }
 
 #learndash_next_prev_link a:hover {
-  background-color: #03a8d4;
+  background-color: #337ab7;
 }
 
 /*-----2D------*/
