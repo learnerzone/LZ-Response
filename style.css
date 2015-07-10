@@ -99,12 +99,33 @@ text-decoration: none;
 
 /*-----404 CUSTOM CSS ------*/
 /*-----HOVER EFFECTS CUSTOM CSS ------*/
-/*-----COURSES CUSTOM ------*/
+/*-----LearnDash CUSTOM ------*/
 .ld_course_grid h3{
 	font-size: 20px;
 }
 #ld_course_list .thumbnail .caption{
 	min-height:135px;
+}
+
+p#learndash_next_prev_link {
+  margin-top: 10px;
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: solid 1px #337ab7;
+  border-radius: 8px;
+} 
+
+p#learndash_next_prev_link a {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p#learndash_next_prev_link:hover {
+  background-color: #03a8d4;
 }
 
 /*-----2D------*/
