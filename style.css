@@ -107,7 +107,7 @@ text-decoration: none;
 	min-height:135px;
 }
 
-p#learndash_next_prev_link {
+#learndash_next_prev_link {
   margin-top: 10px;
   background-color: #337ab7;
   color: #fff;
@@ -117,14 +117,14 @@ p#learndash_next_prev_link {
   border-radius: 8px;
 } 
 
-p#learndash_next_prev_link a {
+#learndash_next_prev_link a {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
 }
 
-p#learndash_next_prev_link:hover {
+#learndash_next_prev_link:hover {
   background-color: #03a8d4;
 }
 
