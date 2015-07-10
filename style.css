@@ -107,6 +107,10 @@ text-decoration: none;
 	min-height:135px;
 }
 
+#learndash_next_prev_link{
+	text-align:center;
+}
+
 #learndash_next_prev_link a {
   margin-top: 10px;
   background-color: #03a8d4;
@@ -115,17 +119,28 @@ text-decoration: none;
   text-align: center;
   border: solid 1px #337ab7;
   border-radius: 8px;
-} 
-
-#learndash_next_prev_link a {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-}
+} 
 
 #learndash_next_prev_link a:hover {
   background-color: #337ab7;
+}
+
+#sfwd-mark-complete input[type="submit"] {
+  margin-top: 10px;
+  background-color: #03a8d4;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: solid 1px #337ab7;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /*-----2D------*/
